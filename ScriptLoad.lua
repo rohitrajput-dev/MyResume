@@ -7,7 +7,7 @@ local list = {
 }
 _G.HoHoLoaded = true
 _G.MY_KEY_IS = "6b65a38062f86678382733d14308bbffb3b4b40dd6d211806cb92caa25365ec6"
-
+local notify = loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Notification.lua"))()
 notify.New("Wait Bro!", 30)
 
 if list[game.GameId] ~= nil then
