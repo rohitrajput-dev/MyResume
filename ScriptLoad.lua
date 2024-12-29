@@ -7,7 +7,7 @@ local list = {
 	[994732206] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/rohitrajput-dev/MyResume/refs/heads/main/BloxFruitTestOnly.lua'))()"
 }
 _G.HoHoLoaded = true
-_G.MY_KEY_IS = "6b65a38062f86678382733d14308bbffb3b4b40dd6d211806cb92caa25365ec6"
+_G.MY_KEY_IS = "4c3885e34018ab149a7848e00b3536c0dab40803957b94a0c84cfb9a5c4f0281"
 notify.New("Wait Bro!", 30)
 
 if list[game.GameId] ~= nil then
