@@ -12,8 +12,5 @@ notify.New("Wait Bro!", 30)
 
 if list[game.GameId] ~= nil then
 	loadstring(list[tonumber(game.GameId)])()
-else
-	notify.New("This game is not supported by hohohub :(", 60)
-	notify.New("Please join discord.gg/hohohub to check what game r supported by us!", 60)
 end
 local path = "loadstring(game:HttpGet('https://raw.githubusercontent.com/rohitrajput-dev/MyResume/refs/heads/main/ScriptLoad.txt'))()"
