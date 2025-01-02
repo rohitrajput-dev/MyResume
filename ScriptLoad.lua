@@ -1,6 +1,5 @@
 --loadstring(game:HttpGet("https://raw.githubusercontent.com/rohitrajput-dev/MyResume/edit/main/ScriptLoad.lua"))()
 repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
-local ExecutorName = identifyexecutor() 
 local notify = loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Notification.lua"))()
 getgenv().bit = bit32 -- Cubix & Awp issue :)
 local list = {
