@@ -8,7 +8,7 @@ local list = {
 }
 _G.HoHoLoaded = true
 --_G.MY_KEY_IS = true
-notify.New("Wait Bro!", 30)
+notify.New("Wait Bro!", 10)
 
 if list[game.GameId] ~= nil then
 	loadstring(list[tonumber(game.GameId)])()
