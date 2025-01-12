@@ -4,7 +4,7 @@ local notify = loadstring(game:HttpGet("https://raw.githubusercontent.com/rohitr
 getgenv().bit = bit32 -- Cubix & Awp issue :)
 local list = {
 	--Blox Fruit
-	[994732206] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/rohitrajput-dev/MyResume/refs/heads/main/BloxFruitTestOnly.lua'))()"
+	[994732206] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/rohitrajput-dev/MyResume/refs/heads/main/BloxFruitTEST_ONLY.lua'))()"
 }
 _G.HoHoLoaded = true
 --_G.MY_KEY_IS = true
